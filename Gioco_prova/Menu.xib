@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Menu">
+            <connections>
+                <outlet property="controlMode" destination="h35-Qh-UDO" id="qe0-g9-azZ"/>
+                <outlet property="imgMusic" destination="NEF-UG-6mg" id="74y-XH-N4H"/>
+                <outlet property="imgSound" destination="5Cz-Mj-Knq" id="PMV-z4-0lw"/>
+                <outlet property="indietro" destination="gR3-gf-Dae" id="ZIm-mr-V4w"/>
+                <outlet property="info" destination="Mmo-hr-Zez" id="vjC-mV-FVE"/>
+                <outlet property="labelMode" destination="D2J-Ap-yOs" id="ZHi-De-qVo"/>
+                <outlet property="labelMusic" destination="oHK-Tc-Ftk" id="vsq-mJ-WUC"/>
+                <outlet property="labelSound" destination="LWi-PL-kzD" id="YXF-pL-sH7"/>
+                <outlet property="menu" destination="N0m-Bb-p4u" id="5sO-30-quj"/>
+                <outlet property="sliderMusic" destination="4IT-3A-v8L" id="SjR-YL-wKG"/>
+                <outlet property="sliderSound" destination="bUc-Ff-eqb" id="eHP-Bq-ERi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menù" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N0m-Bb-p4u">
+                    <rect key="frame" x="122" y="33" width="130" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                    <color key="textColor" red="0.2392239524" green="0.64280395499999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gR3-gf-Dae">
+                    <rect key="frame" x="20" y="40" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <state key="normal" image="return2.png"/>
+                    <connections>
+                        <action selector="Indietro:" destination="-1" eventType="touchUpInside" id="E5U-Zq-NKf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Mmo-hr-Zez">
+                    <rect key="frame" x="336" y="49" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <connections>
+                        <action selector="Info:" destination="-1" eventType="touchUpInside" id="jvP-EX-fAg"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="4IT-3A-v8L">
+                    <rect key="frame" x="91" y="181" width="252" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.14719046760000001" green="0.82061927359999998" blue="0.082309184499999993" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="Musicchangevalue:" destination="-1" eventType="valueChanged" id="f86-fl-9eQ"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="bUc-Ff-eqb">
+                    <rect key="frame" x="91" y="271" width="252" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.92361338350785338" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </slider>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unmute.png" id="NEF-UG-6mg">
+                    <rect key="frame" x="20" y="176" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music.jpg" id="5Cz-Mj-Knq">
+                    <rect key="frame" x="20" y="266" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oHK-Tc-Ftk">
+                    <rect key="frame" x="20" y="151" width="52" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.14719046758350202" green="0.82061927356020936" blue="0.082309184504765973" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LWi-PL-kzD">
+                    <rect key="frame" x="20" y="237" width="61" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.051140355970000002" blue="0.021293731140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="h35-Qh-UDO">
+                    <rect key="frame" x="138" y="376" width="159" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <animations/>
+                    <segments>
+                        <segment title="vs CPU"/>
+                        <segment title="2 Player"/>
+                    </segments>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modality" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D2J-Ap-yOs">
+                    <rect key="frame" x="20" y="371" width="73" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.79900196335078533" blue="0.79900196335078533" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="372.5" y="329.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="music.jpg" width="126" height="160"/>
+        <image name="return2.png" width="405" height="409"/>
+        <image name="unmute.png" width="500" height="500"/>
+    </resources>
+</document>
