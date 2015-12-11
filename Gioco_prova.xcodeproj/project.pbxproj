@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1B0C371C12ED0B005AE493 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B0C351C12ED0B005AE493 /* Menu.m */; };
+		7A1B0C381C12ED0B005AE493 /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A1B0C361C12ED0B005AE493 /* Menu.xib */; };
+		7A1B0C3B1C12EF8C005AE493 /* return2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1B0C3A1C12EF8C005AE493 /* return2.png */; };
+		7A53FA851C11F38300D8879B /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A53FA841C11F38300D8879B /* images.jpg */; };
+		7A53FA871C11F3CF00D8879B /* pausa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A53FA861C11F3CF00D8879B /* pausa.png */; };
+		7A53FA8C1C11F5FF00D8879B /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A53FA891C11F5FF00D8879B /* rewind.png */; };
+		7AAE693C1C15C17B00EEA4CA /* music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE693B1C15C17B00EEA4CA /* music.jpg */; };
+		7AAE693F1C15C32500EEA4CA /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE693D1C15C32500EEA4CA /* mute.png */; };
+		7AAE69401C15C32500EEA4CA /* unmute.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE693E1C15C32500EEA4CA /* unmute.png */; };
+		7AAE69421C15C89900EEA4CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAE69411C15C89900EEA4CA /* AudioToolbox.framework */; };
+		7AAE69441C15CE2800EEA4CA /* Hockey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE69431C15CE2800EEA4CA /* Hockey.mp3 */; };
 		7ACB00021C0ECDC4009E0E6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB00011C0ECDC4009E0E6A /* AppDelegate.m */; };
 		7ACB00051C0ECDC4009E0E6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB00041C0ECDC4009E0E6A /* ViewController.m */; };
 		7ACB00081C0ECDC4009E0E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB00061C0ECDC4009E0E6A /* Main.storyboard */; };
-		7ACB000A1C0ECDC4009E0E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB00091C0ECDC4009E0E6A /* Assets.xcassets */; };
 		7ACB000D1C0ECDC4009E0E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB000B1C0ECDC4009E0E6A /* LaunchScreen.storyboard */; };
 		7ACB00181C0ECDC4009E0E6A /* Gioco_provaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB00171C0ECDC4009E0E6A /* Gioco_provaTests.m */; };
 		7ACB00231C0ECDC4009E0E6A /* Gioco_provaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB00221C0ECDC4009E0E6A /* Gioco_provaUITests.m */; };
+		7ACB00311C0ECE87009E0E6A /* pallina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB00301C0ECE87009E0E6A /* pallina.png */; };
+		7ACB00331C0ECE8D009E0E6A /* barra.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB00321C0ECE8D009E0E6A /* barra.png */; };
 		7ACBFFFF1C0ECDC4009E0E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACBFFFE1C0ECDC4009E0E6A /* main.m */; };
+		7ACD1AB01C14D88500F31A16 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD1AAE1C14D88500F31A16 /* Info.m */; };
+		7ACD1AB11C14D88500F31A16 /* Info.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACD1AAF1C14D88500F31A16 /* Info.xib */; };
+		7ACD1AB31C15AF9F00F31A16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACD1AB21C15AF9F00F31A16 /* AVFoundation.framework */; };
+		7ACD1AB51C15B13A00F31A16 /* Fury of the Storm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ACD1AB41C15B13A00F31A16 /* Fury of the Storm.mp3 */; };
+		7ACE69EB1C12C13F00812980 /* 56763.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE69EA1C12C13F00812980 /* 56763.png */; };
+		7AEF4ECD1C12B7BA0086DBDA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF4ECC1C12B7BA0086DBDA /* Icon.png */; };
+		7AEF4ED11C12BACB0086DBDA /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF4ED01C12BACB0086DBDA /* ios */; };
+		7AEF4ED31C12BB060086DBDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF4ED21C12BB060086DBDA /* Images.xcassets */; };
+		7AEF4ED51C12BB1C0086DBDA /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF4ED41C12BB1C0086DBDA /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +56,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1B0C341C12ED0B005AE493 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		7A1B0C351C12ED0B005AE493 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		7A1B0C361C12ED0B005AE493 /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
+		7A1B0C3A1C12EF8C005AE493 /* return2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return2.png; sourceTree = "<group>"; };
+		7A53FA841C11F38300D8879B /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		7A53FA861C11F3CF00D8879B /* pausa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausa.png; sourceTree = "<group>"; };
+		7A53FA891C11F5FF00D8879B /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		7AAE693B1C15C17B00EEA4CA /* music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music.jpg; sourceTree = "<group>"; };
+		7AAE693D1C15C32500EEA4CA /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		7AAE693E1C15C32500EEA4CA /* unmute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unmute.png; sourceTree = "<group>"; };
+		7AAE69411C15C89900EEA4CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7AAE69431C15CE2800EEA4CA /* Hockey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hockey.mp3; sourceTree = "<group>"; };
 		7ACB00001C0ECDC4009E0E6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ACB00011C0ECDC4009E0E6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7ACB00031C0ECDC4009E0E6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7ACB00041C0ECDC4009E0E6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7ACB00071C0ECDC4009E0E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7ACB00091C0ECDC4009E0E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACB000C1C0ECDC4009E0E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ACB000E1C0ECDC4009E0E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACB00131C0ECDC4009E0E6A /* Gioco_provaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gioco_provaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,8 +81,20 @@
 		7ACB001E1C0ECDC4009E0E6A /* Gioco_provaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gioco_provaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACB00221C0ECDC4009E0E6A /* Gioco_provaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gioco_provaUITests.m; sourceTree = "<group>"; };
 		7ACB00241C0ECDC4009E0E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACB00301C0ECE87009E0E6A /* pallina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pallina.png; sourceTree = "<group>"; };
+		7ACB00321C0ECE8D009E0E6A /* barra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barra.png; sourceTree = "<group>"; };
 		7ACBFFFA1C0ECDC4009E0E6A /* Gioco_prova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gioco_prova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACBFFFE1C0ECDC4009E0E6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ACD1AAD1C14D88500F31A16 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		7ACD1AAE1C14D88500F31A16 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		7ACD1AAF1C14D88500F31A16 /* Info.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Info.xib; sourceTree = "<group>"; };
+		7ACD1AB21C15AF9F00F31A16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7ACD1AB41C15B13A00F31A16 /* Fury of the Storm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fury of the Storm.mp3"; sourceTree = "<group>"; };
+		7ACE69EA1C12C13F00812980 /* 56763.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 56763.png; sourceTree = "<group>"; };
+		7AEF4ECC1C12B7BA0086DBDA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7AEF4ED01C12BACB0086DBDA /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
+		7AEF4ED21C12BB060086DBDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AEF4ED41C12BB1C0086DBDA /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +116,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAE69421C15C89900EEA4CA /* AudioToolbox.framework in Frameworks */,
+				7ACD1AB31C15AF9F00F31A16 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A1B0C391C12ED23005AE493 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE69431C15CE2800EEA4CA /* Hockey.mp3 */,
+				7AAE693D1C15C32500EEA4CA /* mute.png */,
+				7AAE693E1C15C32500EEA4CA /* unmute.png */,
+				7AAE693B1C15C17B00EEA4CA /* music.jpg */,
+				7ACD1AB41C15B13A00F31A16 /* Fury of the Storm.mp3 */,
+				7A1B0C3A1C12EF8C005AE493 /* return2.png */,
+				7AEF4ECC1C12B7BA0086DBDA /* Icon.png */,
+				7ACB00301C0ECE87009E0E6A /* pallina.png */,
+				7A53FA891C11F5FF00D8879B /* rewind.png */,
+				7A53FA861C11F3CF00D8879B /* pausa.png */,
+				7ACB00321C0ECE8D009E0E6A /* barra.png */,
+				7A53FA841C11F38300D8879B /* images.jpg */,
+				7ACE69EA1C12C13F00812980 /* 56763.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7ACB00161C0ECDC4009E0E6A /* Gioco_provaTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +165,8 @@
 		7ACBFFF11C0ECDC4009E0E6A = {
 			isa = PBXGroup;
 			children = (
+				7AAE69411C15C89900EEA4CA /* AudioToolbox.framework */,
+				7ACD1AB21C15AF9F00F31A16 /* AVFoundation.framework */,
 				7ACBFFFC1C0ECDC4009E0E6A /* Gioco_prova */,
 				7ACB00161C0ECDC4009E0E6A /* Gioco_provaTests */,
 				7ACB00211C0ECDC4009E0E6A /* Gioco_provaUITests */,
@@ -124,9 +192,18 @@
 				7ACB00031C0ECDC4009E0E6A /* ViewController.h */,
 				7ACB00041C0ECDC4009E0E6A /* ViewController.m */,
 				7ACB00061C0ECDC4009E0E6A /* Main.storyboard */,
-				7ACB00091C0ECDC4009E0E6A /* Assets.xcassets */,
 				7ACB000B1C0ECDC4009E0E6A /* LaunchScreen.storyboard */,
+				7A1B0C341C12ED0B005AE493 /* Menu.h */,
+				7A1B0C351C12ED0B005AE493 /* Menu.m */,
+				7A1B0C361C12ED0B005AE493 /* Menu.xib */,
+				7ACD1AAD1C14D88500F31A16 /* Info.h */,
+				7ACD1AAE1C14D88500F31A16 /* Info.m */,
+				7ACD1AAF1C14D88500F31A16 /* Info.xib */,
 				7ACB000E1C0ECDC4009E0E6A /* Info.plist */,
+				7A1B0C391C12ED23005AE493 /* Resources */,
+				7AEF4ED01C12BACB0086DBDA /* ios */,
+				7AEF4ED21C12BB060086DBDA /* Images.xcassets */,
+				7AEF4ED41C12BB1C0086DBDA /* Images-2.xcassets */,
 				7ACBFFFD1C0ECDC4009E0E6A /* Supporting Files */,
 			);
 			path = Gioco_prova;
@@ -215,6 +292,7 @@
 					};
 					7ACBFFF91C0ECDC4009E0E6A = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8QM6SJ723C;
 					};
 				};
 			};
@@ -257,9 +335,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1B0C3B1C12EF8C005AE493 /* return2.png in Resources */,
+				7ACD1AB51C15B13A00F31A16 /* Fury of the Storm.mp3 in Resources */,
+				7AAE693F1C15C32500EEA4CA /* mute.png in Resources */,
+				7ACD1AB11C14D88500F31A16 /* Info.xib in Resources */,
+				7AEF4ED11C12BACB0086DBDA /* ios in Resources */,
+				7AEF4ED31C12BB060086DBDA /* Images.xcassets in Resources */,
+				7AEF4ECD1C12B7BA0086DBDA /* Icon.png in Resources */,
+				7ACB00331C0ECE8D009E0E6A /* barra.png in Resources */,
+				7AAE69441C15CE2800EEA4CA /* Hockey.mp3 in Resources */,
+				7AAE693C1C15C17B00EEA4CA /* music.jpg in Resources */,
 				7ACB000D1C0ECDC4009E0E6A /* LaunchScreen.storyboard in Resources */,
-				7ACB000A1C0ECDC4009E0E6A /* Assets.xcassets in Resources */,
+				7A53FA871C11F3CF00D8879B /* pausa.png in Resources */,
+				7AAE69401C15C32500EEA4CA /* unmute.png in Resources */,
+				7AEF4ED51C12BB1C0086DBDA /* Images-2.xcassets in Resources */,
+				7ACE69EB1C12C13F00812980 /* 56763.png in Resources */,
+				7A53FA8C1C11F5FF00D8879B /* rewind.png in Resources */,
 				7ACB00081C0ECDC4009E0E6A /* Main.storyboard in Resources */,
+				7ACB00311C0ECE87009E0E6A /* pallina.png in Resources */,
+				7A1B0C381C12ED0B005AE493 /* Menu.xib in Resources */,
+				7A53FA851C11F38300D8879B /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACD1AB01C14D88500F31A16 /* Info.m in Sources */,
 				7ACB00051C0ECDC4009E0E6A /* ViewController.m in Sources */,
 				7ACB00021C0ECDC4009E0E6A /* AppDelegate.m in Sources */,
+				7A1B0C371C12ED0B005AE493 /* Menu.m in Sources */,
 				7ACBFFFF1C0ECDC4009E0E6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,10 +508,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Gioco_prova/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bo.Gioco-prova";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +523,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Gioco_prova/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bo.Gioco-prova";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -487,6 +592,7 @@
 				7ACB00291C0ECDC4009E0E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ACB002A1C0ECDC4009E0E6A /* Build configuration list for PBXNativeTarget "Gioco_provaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +601,7 @@
 				7ACB002C1C0ECDC4009E0E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ACB002D1C0ECDC4009E0E6A /* Build configuration list for PBXNativeTarget "Gioco_provaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +610,7 @@
 				7ACB002F1C0ECDC4009E0E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ACBFFF51C0ECDC4009E0E6A /* Build configuration list for PBXProject "Gioco_prova" */ = {
 			isa = XCConfigurationList;

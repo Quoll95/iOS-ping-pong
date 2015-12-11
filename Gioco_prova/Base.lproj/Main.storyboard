@@ -1,25 +1,179 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pallina.png" id="8Wn-AI-TMe">
+                                <rect key="frame" x="177" y="324" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="barra.png" id="Nlg-GE-uxu">
+                                <rect key="frame" x="144" y="55" width="87" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="barra.png" id="mum-LF-diV">
+                                <rect key="frame" x="144" y="597" width="87" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" adjustable="YES"/>
+                                </accessibility>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qzV-T2-UTA">
+                                <rect key="frame" x="20" y="272" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tHz-8z-SS7">
+                                <rect key="frame" x="20" y="344" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aCI-Pg-zPw" userLabel="Button2">
+                                <rect key="frame" x="20" y="331" width="178" height="316"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Sinistra:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lIp-yD-hzx"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="msO-Ad-TD4" userLabel="Button1">
+                                <rect key="frame" x="177" y="335" width="178" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Destra:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6eU-Zl-lje"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="whs-6a-TZY">
+                                <rect key="frame" x="177" y="32.5" width="178" height="303.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="ComputerD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gvl-VJ-9Ae"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fz0-8Z-DUb">
+                                <rect key="frame" x="20" y="32" width="178" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="ComputerS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B76-dj-3SN"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ruu-or-iun">
+                                <rect key="frame" x="20" y="627" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="pausa.png"/>
+                                <connections>
+                                    <action selector="Pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgg-Tt-Tvu"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4L4-zy-ypi">
+                                <rect key="frame" x="335" y="627" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="rewind.png">
+                                    <color key="titleColor" red="1" green="0.051140355970000002" blue="0.021293731140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Indietro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0I-ZH-HJT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y8s-TI-Fyq">
+                                <rect key="frame" x="62" y="84" width="250" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Tocca per iniziare"/>
+                                <connections>
+                                    <action selector="Inizia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zyR-iO-96b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qLu-zZ-68P">
+                                <rect key="frame" x="20" y="26" width="20" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="56763.png"/>
+                                <connections>
+                                    <action selector="Menu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OgU-94-db7"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zEu-Rw-ueo">
+                                <rect key="frame" x="335" y="26" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="mute.png"/>
+                                <connections>
+                                    <action selector="Unmute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctj-K6-LTr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SXj-dg-OKp">
+                                <rect key="frame" x="335" y="26" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="unmute.png"/>
+                                <connections>
+                                    <action selector="Mute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H5a-3a-oCX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="barraDue" destination="mum-LF-diV" id="2CT-Jq-5o0"/>
+                        <outlet property="barraUno" destination="Nlg-GE-uxu" id="3dN-eC-oqR"/>
+                        <outlet property="buttonD" destination="msO-Ad-TD4" id="tes-WN-2j9"/>
+                        <outlet property="buttonS" destination="aCI-Pg-zPw" id="7Z0-jF-Zrn"/>
+                        <outlet property="computerD" destination="whs-6a-TZY" id="lIb-9B-cIy"/>
+                        <outlet property="computerS" destination="Fz0-8Z-DUb" id="TPO-8G-kdd"/>
+                        <outlet property="indietro" destination="4L4-zy-ypi" id="K62-S6-sxi"/>
+                        <outlet property="menu" destination="qLu-zZ-68P" id="s3t-c7-cgX"/>
+                        <outlet property="mute" destination="zEu-Rw-ueo" id="zC9-VP-wzE"/>
+                        <outlet property="pallina" destination="8Wn-AI-TMe" id="PWf-qY-EXJ"/>
+                        <outlet property="pause" destination="Ruu-or-iun" id="MMi-8E-vK1"/>
+                        <outlet property="puntiDue" destination="tHz-8z-SS7" id="nEO-u2-fCF"/>
+                        <outlet property="puntiUno" destination="qzV-T2-UTA" id="Mqu-Pk-4Dm"/>
+                        <outlet property="textIniziale" destination="Y8s-TI-Fyq" id="MnH-ty-Tfp"/>
+                        <outlet property="unmute" destination="SXj-dg-OKp" id="6aB-KH-scu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="143.5" y="272.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="56763.png" width="256" height="256"/>
+        <image name="barra.png" width="89" height="10"/>
+        <image name="mute.png" width="128" height="128"/>
+        <image name="pallina.png" width="16" height="16"/>
+        <image name="pausa.png" width="512" height="512"/>
+        <image name="rewind.png" width="2000" height="2000"/>
+        <image name="unmute.png" width="500" height="500"/>
+    </resources>
 </document>
